@@ -1,0 +1,11 @@
+Retrieving speedtest.net configuration...
+16063) AIS (Samut Prakan, Thailand) [23.37 km]
+61505) TrueMove H (Pathumwan, Thailand) [27.20 km]
+ 9830) Bangmod Enterprise Co., Ltd. (Bangkok, Thailand) [32.34 km]
+27241) TOT (Bangkok, Thailand) [32.34 km]
+17560) TrueMove H (Bangkok, Thailand) [32.34 km]
+49640) MinetHost Corporation (Bangkok, Thailand) [32.34 km]
+ 7115) RMUTP (Bangkok, Thailand) [32.34 km]
+23295) 3BB (Pathum Thani, Thailand) [43.82 km]
+29053) 3BB (Samut Sakhon, Thailand) [57.71 km]
+27310) TOT (Nakhon Pathom, Thailand) [81.02 km]
