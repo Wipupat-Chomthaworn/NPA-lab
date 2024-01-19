@@ -2,8 +2,12 @@
 # pylint: disable=missing-module-docstring
 import pexpect
 
+GroupId = 15
+Y = str(100+GroupId)
+
 PROMPT = "#"
-IP = "172.31.115.3"
+IP = "172.31."+Y+".3"
+print("TargetIP", IP)
 USERNAME = "admin"
 PASSWORD = "cisco"
 COMMAND = "sh ip int bri"
