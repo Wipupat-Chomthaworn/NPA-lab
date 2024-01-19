@@ -1,0 +1,47 @@
+#command to run this play book (ansible-playbook playbook_name.yaml -i hosts)
+#ansible-playbook backup_cisco_router_playbook.yaml -i hosts
+
+#You run an Ansible playbook using the ansible-playbook command, for example:
+#ansible-playbook backup_cisco_router_playbook.yaml -i hosts
+# The ansible-playbook command uses parameters to specify: 
+# The playbook you want to run (backup_cisco_router_playbook.yaml) 
+# The inventory file and its location (-i hosts). 
+
+---
+- name: AUTOMATIC BACKUP OF RUNNING-CONFIG
+  hosts: R0-15
+  gather_facts: false
+  connection: local
+ 
+  tasks:
+   - name: DISPLAYING THE RUNNING-CONFIG
+     ios_command:
+       commands:
+         - show running-config  
+     register: config
+ 
+   - name: SAVE OUTPUT TO ./backups/
+     copy:
+       content: "{{ config.stdout[0] }}"
+       dest: "backups/show_run_{{ inventory_hostname }}.txt"
+
+
+- name: AUTOMATIC BACKUP OF RUNNING-CONFIG
+  hosts: R1-15
+  gather_facts: false
+  connection: local
+ 
+  tasks:
+   - name: DISPLAYING THE RUNNING-CONFIG
+     ios_command:
+       commands:
+         - show running-config  
+     register: config
+ 
+   - name: SAVE OUTPUT TO ./backups/
+     copy:
+       content: "{{ config.stdout[0] }}"
+       dest: "backups/show_run_{{ inventory_hostname }}.txt"
+
+
+
