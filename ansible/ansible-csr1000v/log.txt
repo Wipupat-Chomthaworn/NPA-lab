@@ -1,0 +1,27 @@
+devasc@labvm:~/labs/devnet-src$ cd ansible/
+devasc@labvm:~/labs/devnet-src/ansible$ cd ansible-csr1000v/
+devasc@labvm:~/labs/devnet-src/ansible/ansible-csr1000v$ ansible-playbook backup-cisco-router-playbook.yml -i hosts
+ERROR! the playbook: backup-cisco-router-playbook.yml could not be found
+devasc@labvm:~/labs/devnet-src/ansible/ansible-csr1000v$ ansible-playbook backup_cisco_router_playbook.yaml -i hosts
+
+PLAY [AUTOMATIC BACKUP OF RUNNING-CONFIG] ***********************************************************************
+
+TASK [DISPLAYING THE RUNNING-CONFIG] ****************************************************************************
+ok: [R0-15]
+
+TASK [SAVE OUTPUT TO ./backups/] ********************************************************************************
+ok: [R0-15]
+
+PLAY [AUTOMATIC BACKUP OF RUNNING-CONFIG] ***********************************************************************
+
+TASK [DISPLAYING THE RUNNING-CONFIG] ****************************************************************************
+ok: [R1-15]
+
+TASK [SAVE OUTPUT TO ./backups/] ********************************************************************************
+ok: [R1-15]
+
+PLAY RECAP ******************************************************************************************************
+R0-15                      : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+R1-15                      : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+devasc@labvm:~/labs/devnet-src/ansible/ansible-csr1000v$ 

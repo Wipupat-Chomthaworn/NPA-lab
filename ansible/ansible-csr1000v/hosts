@@ -1,0 +1,5 @@
+#router_name username    password               Host IP
+R0-15 ansible_user=admin ansible_password=cisco ansible_host=172.31.115.1
+R1-15 ansible_user=admin ansible_password=cisco ansible_host=172.31.115.3
+
+

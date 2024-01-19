@@ -1,0 +1,165 @@
+devasc@labvm:~/labs/devnet-src$ cd ansible/
+devasc@labvm:~/labs/devnet-src/ansible$ ls
+ansible-apache  ansible-csr1000v
+devasc@labvm:~/labs/devnet-src/ansible$ cd ansible-
+bash: cd: ansible-: No such file or directory
+devasc@labvm:~/labs/devnet-src/ansible$ cd ansible-
+ansible-apache/   ansible-csr1000v/ 
+devasc@labvm:~/labs/devnet-src/ansible$ cd ansible-apache/
+devasc@labvm:~/labs/devnet-src/ansible/ansible-apache$ pip install pyyaml
+
+Command 'pip' not found, but there are 18 similar ones.
+
+devasc@labvm:~/labs/devnet-src/ansible/ansible-apache$ ansible webservers -m ping
+[WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+[WARNING]: Could not match supplied host pattern, ignoring: webservers
+devasc@labvm:~/labs/devnet-src/ansible/ansible-apache$ ip addr
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 08:00:27:e9:3d:e6 brd ff:ff:ff:ff:ff:ff
+    inet 10.0.2.15/24 brd 10.0.2.255 scope global dynamic enp0s3
+       valid_lft 84261sec preferred_lft 84261sec
+    inet6 fe80::a00:27ff:fee9:3de6/64 scope link 
+       valid_lft forever preferred_lft forever
+3: dummy0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/ether 7a:7a:6d:ea:3c:5c brd ff:ff:ff:ff:ff:ff
+    inet 192.0.2.1/32 scope global dummy0
+       valid_lft forever preferred_lft forever
+    inet 192.0.2.2/32 scope global dummy0
+       valid_lft forever preferred_lft forever
+    inet 192.0.2.3/32 scope global dummy0
+       valid_lft forever preferred_lft forever
+    inet 192.0.2.4/32 scope global dummy0
+       valid_lft forever preferred_lft forever
+    inet 192.0.2.5/32 scope global dummy0
+       valid_lft forever preferred_lft forever
+    inet6 fe80::787a:6dff:feea:3c5c/64 scope link 
+       valid_lft forever preferred_lft forever
+devasc@labvm:~/labs/devnet-src/ansible/ansible-apache$ ansible webservers -m ping
+172.31.115.1 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Invalid/incorrect password: Warning: Permanently added '172.31.115.1' (RSA) to the list of known hosts.\r\n\r\n**************************************************************************\r\n* IOSv is strictly limited to use for evaluation, demonstration and IOS  *\r\n* education. IOSv is provided as-is and is not supported by Cisco's      *\r\n* Technical Advisory Center. Any use or disclosure, in whole or in part, *\r\n* of the IOSv Software or Documentation to any third party for any       *\r\n* purposes is expressly prohibited except as otherwise authorized by     *\r\n* Cisco in writing.                                                      *\r\n**************************************************************************",
+    "unreachable": true
+}
+devasc@labvm:~/labs/devnet-src/ansible/ansible-apache$ ansible webservers -m ping
+172.31.115.1 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Invalid/incorrect password: \r\n**************************************************************************\r\n* IOSv is strictly limited to use for evaluation, demonstration and IOS  *\r\n* education. IOSv is provided as-is and is not supported by Cisco's      *\r\n* Technical Advisory Center. Any use or disclosure, in whole or in part, *\r\n* of the IOSv Software or Documentation to any third party for any       *\r\n* purposes is expressly prohibited except as otherwise authorized by     *\r\n* Cisco in writing.                                                      *\r\n**************************************************************************",
+    "unreachable": true
+}
+devasc@labvm:~/labs/devnet-src/ansible/ansible-apache$ ansible --version
+ansible 2.9.9
+  config file = /home/devasc/labs/devnet-src/ansible/ansible-apache/ansible.cfg
+  configured module search path = ['/home/devasc/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /home/devasc/.local/lib/python3.8/site-packages/ansible
+  executable location = /home/devasc/.local/bin/ansible
+  python version = 3.8.2 (default, Apr 27 2020, 15:53:34) [GCC 9.3.0]
+devasc@labvm:~/labs/devnet-src/ansible/ansible-apache$ ansible-playbook backup_cisco_router_playbook.yaml -i hosts
+ERROR! the playbook: backup_cisco_router_playbook.yaml could not be found
+devasc@labvm:~/labs/devnet-src/ansible/ansible-apache$ ^C
+devasc@labvm:~/labs/devnet-src/ansible/ansible-apache$ ansible-playbook backup_cisco_router_playbook.yaml -i hosts
+ERROR! the playbook: backup_cisco_router_playbook.yaml could not be found
+devasc@labvm:~/labs/devnet-src/ansible/ansible-apache$ cd ..
+devasc@labvm:~/labs/devnet-src/ansible$ cd ansible-csr1000v/
+devasc@labvm:~/labs/devnet-src/ansible/ansible-csr1000v$ ls
+ansible_backup_cisco_router-playbook.yml  ansible.cfg  hosts  servers
+devasc@labvm:~/labs/devnet-src/ansible/ansible-csr1000v$ ansible-backup-cisco-router-playbook.yml -i hosts
+ansible-backup-cisco-router-playbook.yml: command not found
+devasc@labvm:~/labs/devnet-src/ansible/ansible-csr1000v$ ansible-playbook backup-cisco-router-playbook.yml - hosts
+ERROR! the playbook: - could not be found
+devasc@labvm:~/labs/devnet-src/ansible/ansible-csr1000v$ ls
+ansible.cfg  backup-cisco-router-playbook.yml  hosts  servers
+devasc@labvm:~/labs/devnet-src/ansible/ansible-csr1000v$ ansible-playbook backup-cisco-router-playbook.yml -i hosts
+
+PLAY [AUTOMATIC BACKUP OF RUNNING-CONFIG] ************************************************************************************
+
+TASK [DISPLAYING THE RUNNING-CONFIG] *****************************************************************************************
+ok: [R0-15]
+
+TASK [SAVE OUTPUT TO ./backups/] *********************************************************************************************
+fatal: [R0-15]: FAILED! => {"changed": false, "checksum": "033efe8f46186f27d5c38a8c6ae04a5a35bfb65f", "msg": "Destination directory backups does not exist"}
+
+PLAY RECAP *******************************************************************************************************************
+R0-15                      : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+
+devasc@labvm:~/labs/devnet-src/ansible/ansible-csr1000v$ ansible-playbook backup_cisco_router_playbook.yaml -i hosts
+
+PLAY [AUTOMATIC BACKUP OF RUNNING-CONFIG] ************************************************************************************
+
+TASK [DISPLAYING THE RUNNING-CONFIG] *****************************************************************************************
+ok: [R0-15]
+
+TASK [SAVE OUTPUT TO ./backups/] *********************************************************************************************
+fatal: [R0-15]: FAILED! => {"changed": false, "checksum": "033efe8f46186f27d5c38a8c6ae04a5a35bfb65f", "msg": "Destination directory backups does not exist"}
+
+PLAY RECAP *******************************************************************************************************************
+R0-15                      : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+
+devasc@labvm:~/labs/devnet-src/ansible/ansible-csr1000v$ ansible-playbook backup_cisco_router_playbook.yaml -i hosts
+
+PLAY [AUTOMATIC BACKUP OF RUNNING-CONFIG] ************************************************************************************
+
+TASK [DISPLAYING THE RUNNING-CONFIG] *****************************************************************************************
+ok: [R0-15]
+
+TASK [SAVE OUTPUT TO ./backups/] *********************************************************************************************
+fatal: [R0-15]: FAILED! => {"changed": false, "checksum": "033efe8f46186f27d5c38a8c6ae04a5a35bfb65f", "msg": "Destination directory backups does not exist"}
+
+PLAY RECAP *******************************************************************************************************************
+R0-15                      : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+
+devasc@labvm:~/labs/devnet-src/ansible/ansible-csr1000v$ ansible-playbook backup_cisco_router_playbook.yaml -i hosts
+
+PLAY [AUTOMATIC BACKUP OF RUNNING-CONFIG] ************************************************************************************
+
+TASK [DISPLAYING THE RUNNING-CONFIG] *****************************************************************************************
+ok: [R0-15]
+
+TASK [SAVE OUTPUT TO ./backups/] *********************************************************************************************
+changed: [R0-15]
+
+PLAY RECAP *******************************************************************************************************************
+R0-15                      : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+devasc@labvm:~/labs/devnet-src/ansible/ansible-csr1000v$ ^C
+devasc@labvm:~/labs/devnet-src/ansible/ansible-csr1000v$ ansible-playbook backup_cisco_router_playbook.yaml -i hosts
+
+PLAY [AUTOMATIC BACKUP OF RUNNING-CONFIG] ************************************************************************************
+
+TASK [DISPLAYING THE RUNNING-CONFIG] *****************************************************************************************
+ok: [R0-15]
+
+TASK [SAVE OUTPUT TO ./backups/] *********************************************************************************************
+ok: [R0-15]
+
+PLAY RECAP *******************************************************************************************************************
+R0-15                      : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+devasc@labvm:~/labs/devnet-src/ansible/ansible-csr1000v$ ansible-playbook backup_cisco_router_playbook.yaml -i hosts
+
+PLAY [AUTOMATIC BACKUP OF RUNNING-CONFIG] ************************************************************************************
+
+TASK [DISPLAYING THE RUNNING-CONFIG] *****************************************************************************************
+ok: [R0-15]
+
+TASK [SAVE OUTPUT TO ./backups/] *********************************************************************************************
+ok: [R0-15]
+
+PLAY [AUTOMATIC BACKUP OF RUNNING-CONFIG] ************************************************************************************
+
+TASK [DISPLAYING THE RUNNING-CONFIG] *****************************************************************************************
+ok: [R1-15]
+
+TASK [SAVE OUTPUT TO ./backups/] *********************************************************************************************
+changed: [R1-15]
+
+PLAY RECAP *******************************************************************************************************************
+R0-15                      : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+R1-15                      : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+devasc@labvm:~/labs/devnet-src/ansible/ansible-csr1000v$ 

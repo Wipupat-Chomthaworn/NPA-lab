@@ -1,0 +1,43 @@
+down down    \r\nR1'
+<class 'bytes'>
+
+sh ip int bri
+Interface                  IP-Address      OK? Method Status                Protocol
+GigabitEthernet0/0         172.31.115.3    YES NVRAM  up                    up      
+GigabitEthernet0/1         unassigned      YES NVRAM  administratively down down    
+GigabitEthernet0/2         unassigned      YES NVRAM  administratively down down    
+GigabitEthernet0/3         unassigned      YES NVRAM  administratively down down    
+R1
+devasc@labvm:~/NPA-lab/lab4$ python3 pexpect-lab.py 
+TargetIP 172.31.115.3
+b'sh ip int bri\r\nInterface                  IP-Address      OK? Method Status                Protocol\r\nGigabitEthernet0/0         172.31.115.3    YES NVRAM  up                    up      \r\nGigabitEthernet0/1         unassigned      YES NVRAM  administratively down down    \r\nGigabitEthernet0/2         unassigned      YES NVRAM  administratively down down    \r\nGigabitEthernet0/3         unassigned      YES NVRAM  administratively down down    \r\nR1'
+<class 'bytes'>
+
+sh ip int bri
+Interface                  IP-Address      OK? Method Status                Protocol
+GigabitEthernet0/0         172.31.115.3    YES NVRAM  up                    up      
+GigabitEthernet0/1         unassigned      YES NVRAM  administratively down down    
+GigabitEthernet0/2         unassigned      YES NVRAM  administratively down down    
+GigabitEthernet0/3         unassigned      YES NVRAM  administratively down down    
+R1
+devasc@labvm:~/NPA-lab/lab4$ python3 pexpect-
+pexpect-exercise.py  pexpect-lab.py       
+devasc@labvm:~/NPA-lab/lab4$ python3 pexpect-exercise.py 
+routers_ip ['172.31.115.3', '172.31.115.4']
+Loopback0 172.16.1.1 is created on 172.31.115.3
+Loopback0 172.16.2.2 is created on 172.31.115.4
+devasc@labvm:~/NPA-lab/lab4$ python3 pexpect-lab.py 
+TargetIP 172.31.115.3
+b'sh ip int bri\r\nInterface                  IP-Address      OK? Method Status                Protocol\r\nGigabitEthernet0/0         172.31.115.3    YES NVRAM  up                    up      \r\nGigabitEthernet0/1         unassigned      YES NVRAM  administratively down down    \r\nGigabitEthernet0/2         unassigned      YES NVRAM  administratively down down    \r\nGigabitEthernet0/3         unassigned      YES NVRAM  administratively down down    \r\nLoopback0                  172.16.1.1      YES manual up                    up      \r\nR1'
+<class 'bytes'>
+
+sh ip int bri
+Interface                  IP-Address      OK? Method Status                Protocol
+GigabitEthernet0/0         172.31.115.3    YES NVRAM  up                    up      
+GigabitEthernet0/1         unassigned      YES NVRAM  administratively down down    
+GigabitEthernet0/2         unassigned      YES NVRAM  administratively down down    
+GigabitEthernet0/3         unassigned      YES NVRAM  administratively down down    
+Loopback0                  172.16.1.1      YES manual up                    up      
+R1
+devasc@labvm:~/NPA-lab/lab4$ ^C
+devasc@labvm:~/NPA-lab/lab4$ 
