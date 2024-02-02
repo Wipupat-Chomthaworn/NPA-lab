@@ -1,10 +1,28 @@
-Script started on 2024-02-02 03:35:02+00:00 [TERM="xterm-256color" TTY="/dev/pts/6" COLUMNS="113" LINES="9"]
-]0;devasc@labvm: /media/sf_NPA-lab/TDD[01;32mdevasc@labvm[00m:[01;34m/media/sf_NPA-lab/TDD[00m$ ls
- [0m[01;32mfizzBuzz.py[0m   [01;32mmylog.txt[0m   [01;34m__pycache__[0m   [01;34mPytest[0m   [01;32mresult.txt[0m  [01;32m'TDD fizzbuzz.py'[0m   [01;32mtest_fizzBuzz.py[0m
-]0;devasc@labvm: /media/sf_NPA-lab/TDD[01;32mdevasc@labvm[00m:[01;34m/media/sf_NPA-lab/TDD[00m$ ls -a
- [0m[01;34m.[0m    [01;32mfizzBuzz.py[0m   [01;34m__pycache__[0m   [01;34m.pytest_cache[0m  [01;32m'TDD fizzbuzz.py'[0m
- [01;34m..[0m   [01;32mmylog.txt[0m     [01;34mPytest[0m        [01;32mresult.txt[0m      [01;32mtest_fizzBuzz.py[0m
+Script started on 2024-02-02 04:07:53+00:00 [TERM="xterm-256color" TTY="/dev/pts/8" COLUMNS="122" LINES="13"]
+]0;devasc@labvm: /media/sf_NPA-lab/TDD[01;32mdevasc@labvm[00m:[01;34m/media/sf_NPA-lab/TDD[00m$ pytest -m fizzbuzz test_fizzBuzz_marker.py [K -m fizzbuzz test_fizzBuzz_marker.py 
+[1m================================================== test session starts ===================================================[0m
+platform linux -- Python 3.8.2, pytest-8.0.0, pluggy-1.4.0
+rootdir: /media/sf_NPA-lab/TDD
+configfile: pytest.ini
+plugins: Faker-4.1.1
+[1mcollecting ... [0m[1mcollected 4 items / 3 deselected / 1 selected                                                                            [0m
+
+test_fizzBuzz_marker.py [32m.[0m[32m                                                                                          [100%][0m
+
+[32m============================================ [32m[1m1 passed[0m, [33m3 deselected[0m[32m in 0.07s[0m[32m =============================================[0m
+]0;devasc@labvm: /media/sf_NPA-lab/TDD[01;32mdevasc@labvm[00m:[01;34m/media/sf_NPA-lab/TDD[00m$ pytest -m fizzbuzz test_fizzBuzz_marker.py [K
+[1m================================================== test session starts ===================================================[0m
+platform linux -- Python 3.8.2, pytest-8.0.0, pluggy-1.4.0
+rootdir: /media/sf_NPA-lab/TDD
+configfile: pytest.ini
+plugins: Faker-4.1.1
+[1mcollecting ... [0m[1mcollected 5 items                                                                                                        [0m
+
+test_fizzBuzz.py [32m.[0m[32m                                                                                                 [ 20%][0m
+test_fizzBuzz_marker.py [32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m                                                                                       [100%][0m
+
+[32m=================================================== [32m[1m5 passed[0m[32m in 0.10s[0m[32m ====================================================[0m
 ]0;devasc@labvm: /media/sf_NPA-lab/TDD[01;32mdevasc@labvm[00m:[01;34m/media/sf_NPA-lab/TDD[00m$ ^C
 ]0;devasc@labvm: /media/sf_NPA-lab/TDD[01;32mdevasc@labvm[00m:[01;34m/media/sf_NPA-lab/TDD[00m$ exit
 
-Script done on 2024-02-02 03:35:12+00:00 [COMMAND_EXIT_CODE="130"]
+Script done on 2024-02-02 04:08:14+00:00 [COMMAND_EXIT_CODE="130"]

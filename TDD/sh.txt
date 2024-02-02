@@ -1,0 +1,4 @@
+script mylog.txt
+pytest
+pytest -m fizzbuzz test_fizzBuzz_marker.py 
+pytest -m testMarkerName test_fizzBuzz_marker.py 
