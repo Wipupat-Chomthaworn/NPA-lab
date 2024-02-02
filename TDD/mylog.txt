@@ -1,4 +1,45 @@
-Script started on 2024-02-02 04:07:53+00:00 [TERM="xterm-256color" TTY="/dev/pts/8" COLUMNS="122" LINES="13"]
+Script started on 2024-02-02 04:04:20+00:00 [TERM="xterm-256color" TTY="/dev/pts/6" COLUMNS="122" LINES="13"]
+]0;devasc@labvm: /media/sf_NPA-lab/TDD[01;32mdevasc@labvm[00m:[01;34m/media/sf_NPA-lab/TDD[00m$ pytest -m fizzbuzz test_fizzBuzz_marker.py [K -m fizzbuzz test_fizzBuzz_marker.py [K -m fizzbuzz test_fizzBuzz_marker.py 
+[1m================================================== test session starts ===================================================[0m
+platform linux -- Python 3.8.2, pytest-8.0.0, pluggy-1.4.0
+rootdir: /media/sf_NPA-lab/TDD
+configfile: pytest.ini
+plugins: Faker-4.1.1
+[1mcollecting ... [0m[1mcollected 4 items / 3 deselected / 1 selected                                                                            [0m
+
+test_fizzBuzz_marker.py [32m.[0m[32m                                                                                          [100%][0m
+
+[32m============================================ [32m[1m1 passed[0m, [33m3 deselected[0m[32m in 0.07s[0m[32m =============================================[0m
+]0;devasc@labvm: /media/sf_NPA-lab/TDD[01;32mdevasc@labvm[00m:[01;34m/media/sf_NPA-lab/TDD[00m$ pytest -m fizzbuzz test_fizzBuzz_marker.py [K -m fizzbuzz test_fizzBuzz_marker.py B[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cb[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CB[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cb[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[1m================================================== test session starts ===================================================[0m
+platform linux -- Python 3.8.2, pytest-8.0.0, pluggy-1.4.0
+rootdir: /media/sf_NPA-lab/TDD
+configfile: pytest.ini
+plugins: Faker-4.1.1
+[1mcollecting ... [0m[1mcollected 4 items / 3 deselected / 1 selected                                                                            [0m
+
+test_fizzBuzz_marker.py [32m.[0m[32m                                                                                          [100%][0m
+
+[32m============================================ [32m[1m1 passed[0m, [33m3 deselected[0m[32m in 0.10s[0m[32m =============================================[0m
+]0;devasc@labvm: /media/sf_NPA-lab/TDD[01;32mdevasc@labvm[00m:[01;34m/media/sf_NPA-lab/TDD[00m$ pytest -m fizzbuzz test_fizzBuzz_marker.py [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kpytest -m fizzbuzz test_fizzBuzz_marker.py 
+
+[1m================================================== test session starts ===================================================[0m
+platform linux -- Python 3.8.2, pytest-8.0.0, pluggy-1.4.0
+rootdir: /media/sf_NPA-lab/TDD
+configfile: pytest.ini
+plugins: Faker-4.1.1
+[1mcollecting ... [0m[1mcollected 4 items / 3 deselected / 1 selected                                                                            [0m
+
+test_fizzBuzz_marker.py [32m.[0m[32m                                                                                          [100%][0m
+
+[32m============================================ [32m[1m1 passed[0m, [33m3 deselected[0m[32m in 0.09s[0m[32m =============================================[0m
+]0;devasc@labvm: /media/sf_NPA-lab/TDD[01;32mdevasc@labvm[00m:[01;34m/media/sf_NPA-lab/TDD[00m$ 
+]0;devasc@labvm: /media/sf_NPA-lab/TDD[01;32mdevasc@labvm[00m:[01;34m/media/sf_NPA-lab/TDD[00m$ ^C
+]0;devasc@labvm: /media/sf_NPA-lab/TDD[01;32mdevasc@labvm[00m:[01;34m/media/sf_NPA-lab/TDD[00m$ ^C
+]0;devasc@labvm: /media/sf_NPA-lab/TDD[01;32mdevasc@labvm[00m:[01;34m/media/sf_NPA-lab/TDD[00m$ pytest -m fizzbuzz test_fizzBuzz_marker.py [K -m fizzbuzz test_fizzBuzz_marker.py B[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -a[K[Kspeedtest-cli --list | awk -F ')' 'NR > 1 {print $1}'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[31Pbash speedtest-lab.sh ls[Kbash speedtest-lab.sh speedtest-cli --list | awk -F ')' 'NR > 1 {print $1}'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K -apytest -m fizzBuzz test_fizzBuzz_marker.py b[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K -m fizzbuzz test_fizzBuzz_marker.py [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kscript mylog.txt
+Script started, file is mylog.txt
+]0;devasc@labvm: /media/sf_NPA-lab/TDD[01;32mdevasc@labvm[00m:[01;34m/media/sf_NPA-lab/TDD[00m$ script mylog.txt
+Script started, file is mylog.txt
 ]0;devasc@labvm: /media/sf_NPA-lab/TDD[01;32mdevasc@labvm[00m:[01;34m/media/sf_NPA-lab/TDD[00m$ pytest -m fizzbuzz test_fizzBuzz_marker.py [K -m fizzbuzz test_fizzBuzz_marker.py 
 [1m================================================== test session starts ===================================================[0m
 platform linux -- Python 3.8.2, pytest-8.0.0, pluggy-1.4.0
@@ -24,5 +65,9 @@ test_fizzBuzz_marker.py [32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m           
 [32m=================================================== [32m[1m5 passed[0m[32m in 0.10s[0m[32m ====================================================[0m
 ]0;devasc@labvm: /media/sf_NPA-lab/TDD[01;32mdevasc@labvm[00m:[01;34m/media/sf_NPA-lab/TDD[00m$ ^C
 ]0;devasc@labvm: /media/sf_NPA-lab/TDD[01;32mdevasc@labvm[00m:[01;34m/media/sf_NPA-lab/TDD[00m$ exit
-
-Script done on 2024-02-02 04:08:14+00:00 [COMMAND_EXIT_CODE="130"]
+Script done, file is mylog.txt
+]0;devasc@labvm: /media/sf_NPA-lab/TDD[01;32mdevasc@labvm[00m:[01;34m/media/sf_NPA-lab/TDD[00m$ script mylog.txt^C
+]0;devasc@labvm: /media/sf_NPA-lab/TDD[01;32mdevasc@labvm[00m:[01;34m/media/sf_NPA-lab/TDD[00m$ pip [K3 insa[Ktall Faker
+Requirement already satisfied: Faker in /home/devasc/.local/lib/python3.8/site-packages (4.1.1)
+Requirement already satisfied: text-unidecode==1.3 in /home/devasc/.local/lib/python3.8/site-packages (from Faker) (1.3)
+Requirement already satisfied: python-date
