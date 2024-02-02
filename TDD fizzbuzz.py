@@ -5,12 +5,17 @@ def test_fizzbuzz():
     assert fizzBuzz(4) == 4
     assert fizzBuzz(5) == "Buzz"
     assert fizzBuzz(6) == "Fizz"
+    assert fizzBuzz(7) == 7
+    assert fizzBuzz(8) == 8
+    assert fizzBuzz(9) == "Fizz"
+
+
     
     print("TestPass")
 
 
 def fizzBuzz(num):
-    if (num ==3 or num ==6):
+    if (num %3 == 0):
         return "Fizz"
     elif (num % 5 ==0):
         return "Buzz"
