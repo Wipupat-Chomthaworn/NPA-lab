@@ -1,0 +1,131 @@
+Script started on 2024-02-02 05:09:47+00:00 [TERM="xterm-256color" TTY="/dev/pts/7" COLUMNS="122" LINES="3"]
+]0;devasc@labvm: /media/sf_NPA-lab/TDD[01;32mdevasc@labvm[00m:[01;34m/media/sf_NPA-lab/TDD[00m$ pip3 install Faker[2Pscript mylog.txt[10Ppytest[K[K[K[Kthon [K3 '/media/sf_NPA-lab/TDD/add 100 book/add100RandomBooks.py'
+Book {'id': 4, 'title': 'Customizable client-driven forecast', 'author': 'Karen Wells', 'isbn': '978-0-949558-27-5'} added.
+Book {'id': 5, 'title': 'Grass-roots executive framework', 'author': 'Marissa Hendricks', 'isbn': '978-1-71870-572-2'} added.
+Book {'id': 6, 'title': 'Virtual needs-based secured line', 'author': 'Tristan Douglas', 'isbn': '978-0-9902553-1-4'} added.
+Book {'id': 7, 'title': 'Progressive 24hour moratorium', 'author': 'David Lewis', 'isbn': '978-1-75468-972-7'} added.
+Book {'id': 8, 'title': 'Down-sized next generation implementation', 'author': 'Margaret Thompson', 'isbn': '978-1-82427-648-2'} added.
+Book {'id': 9, 'title': 'Up-sized modular flexibility', 'author': 'Amanda Harris', 'isbn': '978-0-542-81618-5'} added.
+Book {'id': 10, 'title': 'Vision-oriented tertiary matrix', 'author': 'Erica Knight', 'isbn': '978-1-257-80899-1'} added.
+Book {'id': 11, 'title': 'Open-source modular migration', 'author': 'Michelle Bean', 'isbn': '978-0-7638-6881-9'} added.
+Book {'id': 12, 'title': 'Realigned next generation monitoring', 'author': 'Deanna Jones', 'isbn': '978-0-87575-848-0'} added.
+Book {'id': 13, 'title': 'Business-focused responsive Local Area Network', 'author': 'Thomas Camacho', 'isbn': '978-0-670-82901-9'} added.
+Book {'id': 14, 'title': 'Exclusive regional Local Area Network', 'author': 'Nancy Leonard', 'isbn': '978-1-76225-093-3'} added.
+Book {'id': 15, 'title': 'Profit-focused 24hour concept', 'author': 'Michelle Barnes', 'isbn': '978-0-17-823018-8'} added.
+Book {'id': 16, 'title': 'Organized global info-mediaries', 'author': 'Tristan Gibson', 'isbn': '978-1-215-21523-6'} added.
+Book {'id': 17, 'title': 'Synergistic system-worthy system engine', 'author': 'Maria Turner', 'isbn': '978-1-65599-731-0'} added.
+Book {'id': 18, 'title': 'Mandatory optimizing methodology', 'author': 'Robert Olson', 'isbn': '978-1-77183-849-8'} added.
+Book {'id': 19, 'title': 'Stand-alone 5thgeneration monitoring', 'author': 'Jeremy Rivera', 'isbn': '978-1-333-48694-5'} added.
+Book {'id': 20, 'title': 'Enhanced heuristic middleware', 'author': 'Kristen Williams', 'isbn': '978-1-4548-7613-7'} added.
+Book {'id': 21, 'title': 'Reduced well-modulated matrices', 'author': 'Anna Thomas', 'isbn': '978-1-65518-421-5'} added.
+Book {'id': 22, 'title': 'Programmable fresh-thinking secured line', 'author': 'Dr. Gregory Singh', 'isbn': '978-0-233-68887-9'} added.
+Book {'id': 23, 'title': 'Switchable eco-centric emulation', 'author': 'Cole Perez', 'isbn': '978-0-08-469563-7'} added.
+Book {'id': 24, 'title': 'Intuitive zero-defect model', 'author': 'Timothy Robinson', 'isbn': '978-0-15-427408-3'} added.
+Book {'id': 25, 'title': 'Business-focused homogeneous projection', 'author': 'Tamara Gordon', 'isbn': '978-1-75990-134-3'} added.
+Book {'id': 26, 'title': 'Sharable interactive contingency', 'author': 'Yvonne Kennedy', 'isbn': '978-0-452-11153-0'} added.
+Book {'id': 27, 'title': 'Customizable uniform array', 'author': 'Monica Miller', 'isbn': '978-0-10-806583-5'} added.
+Book {'id': 28, 'title': 'Front-line bottom-line adapter', 'author': 'Courtney Heath', 'isbn': '978-1-159-87206-9'} added.
+Book {'id': 29, 'title': 'Visionary disintermediate flexibility', 'author': 'April Marsh', 'isbn': '978-0-13-471886-6'} added.
+Book {'id': 30, 'title': 'Networked zero administration function', 'author': 'Debra Herrera', 'isbn': '978-1-4183-5139-7'} added.
+Book {'id': 31, 'title': 'Function-based leadingedge leverage', 'author': 'Jeremy Green', 'isbn': '978-1-59171-519-1'} added.
+Book {'id': 32, 'title': 'Streamlined grid-enabled protocol', 'author': 'Gloria Gilbert', 'isbn': '978-0-472-03335-5'} added.
+Book {'id': 33, 'title': 'Stand-alone zero tolerance open system', 'author': 'Juan Johnson', 'isbn': '978-0-623-29203-7'} added.
+Book {'id': 34, 'title': 'Sharable client-server solution', 'author': 'Deanna Butler', 'isbn': '978-1-76828-146-7'} added.
+Book {'id': 35, 'title': 'Diverse grid-enabled moratorium', 'author': 'Wanda Johnson', 'isbn': '978-0-517-73098-0'} added.
+Book {'id': 36, 'title': 'Cross-platform multi-tasking parallelism', 'author': 'John Lee', 'isbn': '978-0-88235-583-2'} added.
+Book {'id': 37, 'title': 'Reduced zero-defect attitude', 'author': 'Nicholas Mclaughlin', 'isbn': '978-0-335-33215-1'} added.
+Book {'id': 38, 'title': 'Enhanced dynamic definition', 'author': 'Kimberly Lewis', 'isbn': '978-1-04-191519-5'} added.
+Book {'id': 39, 'title': 'Open-architected zero administration initiative', 'author': 'Christopher Gonzalez', 'isbn': '978-0-407-44383-9'} added.
+Book {'id': 40, 'title': 'Proactive object-oriented process improvement', 'author': 'Aaron Carney', 'isbn': '978-0-13-374025-7'} added.
+Book {'id': 41, 'title': 'Multi-tiered exuding toolset', 'author': 'Phillip Blankenship', 'isbn': '978-0-7890-3594-3'} added.
+Book {'id': 42, 'title': 'Re-contextualized interactive toolset', 'author': 'Jessica Marshall', 'isbn': '978-1-03-914741-6'} added.
+Book {'id': 43, 'title': 'Secured user-facing initiative', 'author': 'Molly Ortiz', 'isbn': '978-0-7084-8972-7'} added.
+Book {'id': 44, 'title': 'Devolved client-server contingency', 'author': 'Jake Berry DDS', 'isbn': '978-1-81054-935-4'} added.
+Book {'id': 45, 'title': 'Fundamental object-oriented benchmark', 'author': 'Mikayla Cox', 'isbn': '978-1-63574-209-1'} added.
+Book {'id': 46, 'title': 'Reverse-engineered didactic methodology', 'author': 'Emily Martin', 'isbn': '978-1-120-32081-0'} added.
+Book {'id': 47, 'title': 'De-engineered dynamic access', 'author': 'Eric Gomez', 'isbn': '978-0-490-74400-4'} added.
+Book {'id': 48, 'title': 'Cross-platform bi-directional instruction set', 'author': 'Erik Lee', 'isbn': '978-1-58078-820-5'} added.
+Book {'id': 49, 'title': 'Versatile disintermediate matrices', 'author': 'Spencer White', 'isbn': '978-1-390-88532-3'} added.
+Book {'id': 50, 'title': 'Vision-oriented foreground workforce', 'author': 'Meredith Moss', 'isbn': '978-0-935580-44-0'} added.
+Book {'id': 51, 'title': 'Cross-platform object-oriented leverage', 'author': 'Mathew Garcia', 'isbn': '978-0-8194-2906-3'} added.
+Book {'id': 52, 'title': 'Distributed interactive protocol', 'author': 'Susan Leonard MD', 'isbn': '978-1-886258-22-8'} added.
+Book {'id': 53, 'title': 'Balanced non-volatile task-force', 'author': 'Laurie Mack', 'isbn': '978-0-248-01754-1'} added.
+Book {'id': 54, 'title': 'Team-oriented next generation architecture', 'author': 'Linda Ibarra', 'isbn': '978-1-5159-3310-6'} added.
+Book {'id': 55, 'title': 'User-centric human-resource portal', 'author': 'Megan Phillips', 'isbn': '978-1-971523-59-0'} added.
+Book {'id': 56, 'title': 'Reverse-engineered homogeneous productivity', 'author': 'Tracy Long', 'isbn': '978-1-59950-039-3'} added.
+Book {'id': 57, 'title': 'Adaptive mission-critical superstructure', 'author': 'Dennis Smith MD', 'isbn': '978-1-7397416-0-0'} added.
+Book {'id': 58, 'title': 'Centralized national emulation', 'author': 'Katie Haney', 'isbn': '978-1-152-02958-3'} added.
+Book {'id': 59, 'title': 'Upgradable holistic contingency', 'author': 'Ryan Neal', 'isbn': '978-0-7713-5579-0'} added.
+Book {'id': 60, 'title': 'Managed hybrid time-frame', 'author': 'David Nguyen', 'isbn': '978-1-373-87987-5'} added.
+Book {'id': 61, 'title': 'User-friendly interactive migration', 'author': 'Alisha Huff', 'isbn': '978-1-72400-591-5'} added.
+Book {'id': 62, 'title': 'Synergized local database', 'author': 'Thomas Riley', 'isbn': '978-1-00-602157-2'} added.
+Book {'id': 63, 'title': 'Digitized holistic task-force', 'author': 'Laura Ortega', 'isbn': '978-1-72003-775-0'} added.
+Book {'id': 64, 'title': 'Synergized cohesive Local Area Network', 'author': 'Jennifer Brown', 'isbn': '978-0-284-66672-7'} added.
+Book {'id': 65, 'title': 'Digitized even-keeled hub', 'author': 'Shannon Kemp', 'isbn': '978-0-10-417661-0'} added.
+Book {'id': 66, 'title': 'Seamless actuating methodology', 'author': 'Misty Taylor', 'isbn': '978-1-5453-5443-8'} added.
+Book {'id': 67, 'title': 'Cloned uniform portal', 'author': 'Cody Griffin', 'isbn': '978-1-73191-767-6'} added.
+Book {'id': 68, 'title': 'Programmable context-sensitive moratorium', 'author': 'Douglas Smith', 'isbn': '978-1-65207-586-8'} added.
+Book {'id': 69, 'title': 'Multi-tiered reciprocal contingency', 'author': 'Terry Huffman', 'isbn': '978-1-80257-740-2'} added.
+Book {'id': 70, 'title': 'Open-source explicit adapter', 'author': 'Jessica Hull', 'isbn': '978-1-114-14007-3'} added.
+Book {'id': 71, 'title': 'Total coherent frame', 'author': 'Steven Clark', 'isbn': '978-0-12-635879-7'} added.
+Book {'id': 72, 'title': 'Organic contextually-based capacity', 'author': 'Joyce Wells', 'isbn': '978-0-204-42558-8'} added.
+Book {'id': 73, 'title': 'Function-based optimizing emulation', 'author': 'John Ortiz', 'isbn': '978-1-5100-1478-7'} added.
+Book {'id': 74, 'title': 'Streamlined uniform migration', 'author': 'Erika Landry', 'isbn': '978-1-298-80829-5'} added.
+Book {'id': 75, 'title': 'Profit-focused client-driven knowledgebase', 'author': 'Steven Sheppard', 'isbn': '978-1-7399931-9-1'} added.
+Book {'id': 76, 'title': 'Ameliorated multimedia toolset', 'author': 'Kaitlin Callahan', 'isbn': '978-1-178-43393-7'} added.
+Book {'id': 77, 'title': 'Implemented high-level instruction set', 'author': 'Claire Hawkins', 'isbn': '978-1-74466-070-5'} added.
+Book {'id': 78, 'title': 'Self-enabling exuding service-desk', 'author': 'Teresa Ryan', 'isbn': '978-0-17-531285-6'} added.
+Book {'id': 79, 'title': 'Realigned scalable open system', 'author': 'Allison Walls', 'isbn': '978-0-940553-46-0'} added.
+Book {'id': 80, 'title': 'Persistent maximized structure', 'author': 'Jose Lambert', 'isbn': '978-0-907989-11-0'} added.
+Book {'id': 81, 'title': 'Inverse 24/7 approach', 'author': 'John Chapman', 'isbn': '978-0-7805-7494-6'} added.
+Book {'id': 82, 'title': 'Ergonomic 5thgeneration success', 'author': 'Michelle Thompson', 'isbn': '978-0-18-512175-2'} added.
+Book {'id': 83, 'title': 'Cross-platform intermediate structure', 'author': 'Erica Page', 'isbn': '978-1-328-67810-2'} added.
+Book {'id': 84, 'title': 'Function-based national focus group', 'author': 'Jason Booth', 'isbn': '978-0-240-56641-2'} added.
+Book {'id': 85, 'title': 'Extended next generation frame', 'author': 'Mary Brown', 'isbn': '978-1-207-84660-8'} added.
+Book {'id': 86, 'title': 'Proactive explicit function', 'author': 'Joel Moreno', 'isbn': '978-1-77314-731-4'} added.
+Book {'id': 87, 'title': 'Open-source asynchronous customer loyalty', 'author': 'Mark Perry', 'isbn': '978-1-75249-782-9'} added.
+Book {'id': 88, 'title': 'Reactive heuristic monitoring', 'author': 'Melinda Turner', 'isbn': '978-1-365-57020-9'} added.
+Book {'id': 89, 'title': 'Reverse-engineered composite capacity', 'author': 'Heidi Sanchez', 'isbn': '978-0-10-353634-7'} added.
+Book {'id': 90, 'title': 'Quality-focused maximized initiative', 'author': 'Elizabeth Allen', 'isbn': '978-0-9897531-8-0'} added.
+Book {'id': 91, 'title': 'Diverse national focus group', 'author': 'Elizabeth Malone', 'isbn': '978-0-341-59776-6'} added.
+Book {'id': 92, 'title': 'Function-based asynchronous success', 'author': 'Paul Hernandez', 'isbn': '978-0-258-02979-4'} added.
+Book {'id': 93, 'title': 'Balanced object-oriented benchmark', 'author': 'Jose Taylor', 'isbn': '978-0-7129-4401-4'} added.
+Book {'id': 94, 'title': 'Digitized human-resource portal', 'author': 'Terry King', 'isbn': '978-1-64516-684-9'} added.
+Book {'id': 95, 'title': 'Robust real-time leverage', 'author': 'Andrea Buchanan', 'isbn': '978-0-12-236296-5'} added.
+Book {'id': 96, 'title': 'Upgradable bifurcated methodology', 'author': 'Debra Huynh', 'isbn': '978-0-920911-30-3'} added.
+Book {'id': 97, 'title': 'Front-line object-oriented projection', 'author': 'Kyle Kline', 'isbn': '978-1-82345-547-5'} added.
+Book {'id': 98, 'title': 'Cloned secondary challenge', 'author': 'Nathan Coffey', 'isbn': '978-1-890906-53-5'} added.
+Book {'id': 99, 'title': 'User-friendly bifurcated flexibility', 'author': 'Alex Curtis', 'isbn': '978-1-269-83527-5'} added.
+Book {'id': 100, 'title': 'Adaptive zero administration instruction set', 'author': 'Phyllis Mcgee', 'isbn': '978-1-179-59178-0'} added.
+Book {'id': 101, 'title': 'Upgradable actuating strategy', 'author': 'Matthew Cole', 'isbn': '978-0-9583227-6-8'} added.
+Book {'id': 102, 'title': 'Multi-layered real-time success', 'author': 'Shawn Price', 'isbn': '978-1-4037-0556-3'} added.
+Book {'id': 103, 'title': 'De-engineered high-level framework', 'author': 'Lisa May', 'isbn': '978-1-399-71819-6'} added.
+Book {'id': 104, 'title': 'Business-focused bandwidth-monitored product', 'author': 'Diane Garcia', 'isbn': '978-0-946111-14-5'} added.
+]0;devasc@labvm: /media/sf_NPA-lab/TDD[01;32mdevasc@labvm[00m:[01;34m/media/sf_NPA-lab/TDD[00m$ exit
+
+Script done on 2024-02-02 05:12:46+00:00 [COMMAND_EXIT_CODE="0"]
+ughlin', 'isbn': '978-0-335-33215-1'} added.
+Book {'id': 38, 'title': 'Enhanced dynamic definition', 'author': 'Kimberly Lewis', 'isbn': '978-1-04-191519-5'} added.
+Book {'id': 39, 'title': 'Open-architected zero administration initiative', 'author': 'Christopher Gonzalez', 'isbn': '978-0-407-44383-9'} added.
+Book {'id': 40, 'title': 'Proactive object-oriented process improvement', 'author': 'Aaron Carney', 'isbn': '978-0-13-374025-7'} added.
+Book {'id': 41, 'title': 'Multi-tiered exuding toolset', 'author': 'Phillip Blankenship', 'isbn': '978-0-7890-3594-3'} added.
+Book {'id': 42, 'title': 'Re-contextualized interactive toolset', 'author': 'Jessica Marshall', 'isbn': '978-1-03-914741-6'} added.
+Book {'id': 43, 'title': 'Secured user-facing initiative', 'author': 'Molly Ortiz', 'isbn': '978-0-7084-8972-7'} added.
+Book {'id': 44, 'title': 'Devolved client-server contingency', 'author': 'Jake Berry DDS', 'isbn': '978-1-81054-935-4'} added.
+Book {'id': 45, 'title': 'Fundamental object-oriented benchmark', 'author': 'Mikayla Cox', 'isbn': '978-1-63574-209-1'} added.
+Book {'id': 46, 'title': 'Reverse-engineered didactic methodology', 'author': 'Emily Martin', 'isbn': '978-1-120-32081-0'} added.
+Book {'id': 47, 'title': 'De-engineered dynamic access', 'author': 'Eric Gomez', 'isbn': '978-0-490-74400-4'} added.
+Book {'id': 48, 'title': 'Cross-platform bi-directional instruction set', 'author': 'Erik Lee', 'isbn': '978-1-58078-820-5'} added.
+Book {'id': 49, 'title': 'Versatile disintermediate matrices', 'author': 'Spencer White', 'isbn': '978-1-390-88532-3'} added.
+Book {'id': 50, 'title': 'Vision-oriented foreground workforce', 'author': 'Meredith Moss', 'isbn': '978-0-935580-44-0'} added.
+Book {'id': 51, 'title': 'Cross-platform object-oriented leverage', 'author': 'Mathew Garcia', 'isbn': '978-0-8194-2906-3'} added.
+Book {'id': 52, 'title': 'Distributed interactive protocol', 'author': 'Susan Leonard MD', 'isbn': '978-1-886258-22-8'} added.
+Book {'id': 53, 'title': 'Balanced non-volatile task-force', 'author': 'Laurie Mack', 'isbn': '978-0-248-01754-1'} added.
+Book {'id': 54, 'title': 'Team-oriented next generation architecture', 'author': 'Linda Ibarra', 'isbn': '978-1-5159-3310-6'} added.
+Book {'id': 55, 'title': 'User-centric human-resource portal', 'author': 'Megan Phillips', 'isbn': '978-1-971523-59-0'} added.
+Book {'id': 56, 'title': 'Reverse-engineered homogeneous productivity', 'author': 'Tracy Long', 'isbn': '978-1-59950-039-3'} added.
+Book {'id': 57, 'title': 'Adaptive mission-critical superstructure', 'author': 'Dennis Smith MD', 'isbn': '978-1-7397416-0-0'} added.
+Book {'id': 58, 'title': 'Centralized national emulation', 'author': 'Katie Haney', 'isbn': '978-1-152-02958-3'} added.
+Book {'id': 59, 'title': 'Upgradable holistic contingency', 'author': 'Ryan Neal', 'isbn': '978-0-7713-5579-0'} added.
+Book {'id': 60, 'title': 'Managed hybrid time-frame', 'author': 'David Nguyen', 'isbn': '978-1-373-87987-5'} added.
+Book {'id': 61, 'title': 'User-friendly interactive migration', 'author': 'Alisha Huff', 'i
