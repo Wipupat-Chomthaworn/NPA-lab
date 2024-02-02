@@ -1,0 +1,66 @@
+devasc@labvm:/media/sf_NPA-lab/TDD$ pip3 install pytest
+piCollecting pytest
+  Downloading pytest-8.0.0-py3-none-any.whl (334 kB)
+     |████████████████████████████████| 334 kB 7.6 MB/s 
+Collecting exceptiongroup>=1.0.0rc8; python_version < "3.11"
+  Downloading exceptiongroup-1.2.0-py3-none-any.whl (16 kB)
+Collecting packaging
+  Downloading packaging-23.2-py3-none-any.whl (53 kB)
+     |████████████████████████████████| 53 kB 2.0 MB/s 
+Collecting tomli>=1.0.0; python_version < "3.11"
+  Downloading tomli-2.0.1-py3-none-any.whl (12 kB)
+Collecting pluggy<2.0,>=1.3.0
+  Downloading pluggy-1.4.0-py3-none-any.whl (20 kB)
+Collecting iniconfig
+  Downloading iniconfig-2.0.0-py3-none-any.whl (5.9 kB)
+Installing collected packages: exceptiongroup, packaging, tomli, pluggy, iniconfig, pytest
+pSuccessfully installed exceptiongroup-1.2.0 iniconfig-2.0.0 packaging-23.2 pluggy-1.4.0 pytest-8.0.0 tomli-2.0.1
+devasc@labvm:/media/sf_NPA-lab/TDD$ pytest
+============================================== test session starts ==============================================
+platform linux -- Python 3.8.2, pytest-8.0.0, pluggy-1.4.0
+rootdir: /media/sf_NPA-lab/TDD
+plugins: Faker-4.1.1
+collected 0 items / 1 error                                                                                     
+
+==================================================== ERRORS =====================================================
+_______________________________________ ERROR collecting test_fizzBuzz.py _______________________________________
+/home/devasc/.local/lib/python3.8/site-packages/_pytest/python.py:537: in importtestmodule
+    mod = import_path(path, mode=importmode, root=config.rootpath)
+/home/devasc/.local/lib/python3.8/site-packages/_pytest/pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.8/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+<frozen importlib._bootstrap>:1014: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:991: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:975: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:671: in _load_unlocked
+    ???
+/home/devasc/.local/lib/python3.8/site-packages/_pytest/assertion/rewrite.py:166: in exec_module
+    source_stat, co = _rewrite_test(fn, self.config)
+/home/devasc/.local/lib/python3.8/site-packages/_pytest/assertion/rewrite.py:348: in _rewrite_test
+    tree = ast.parse(source, filename=strfn)
+/usr/lib/python3.8/ast.py:47: in parse
+    return compile(source, filename, mode, flags,
+E     File "/media/sf_NPA-lab/TDD/test_fizzBuzz.py", line 2
+E       import fizzBuzz from fizzBuzz
+E                       ^
+E   SyntaxError: invalid syntax
+============================================ short test summary info ============================================
+ERROR test_fizzBuzz.py
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+=============================================== 1 error in 0.22s ================================================
+devasc@labvm:/media/sf_NPA-lab/TDD$ pytest
+============================================== test session starts ==============================================
+platform linux -- Python 3.8.2, pytest-8.0.0, pluggy-1.4.0
+rootdir: /media/sf_NPA-lab/TDD
+plugins: Faker-4.1.1
+collected 1 item                                                                                                
+
+test_fizzBuzz.py .                                                                                        [100%]
+
+=============================================== 1 passed in 0.25s ===============================================
+devasc@labvm:/media/sf_NPA-lab/TDD$ ^C
+devasc@labvm:/media/sf_NPA-lab/TDD$ 
